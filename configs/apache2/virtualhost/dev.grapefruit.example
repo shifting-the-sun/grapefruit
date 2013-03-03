@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    ServerName dev.grapefruit.local
+    DocumentRoot /home/user/workspace/sites/grapefruit/www
+    ErrorLog /home/user/workspace/sites/grapefruit/logs/apache.error.log
+    CustomLog /home/user/workspace/sites/grapefruit/logs/apache.access.log common
+    <Location />
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ /app_dev.php [QSA,L]
+    </Location>
+</VirtualHost>
