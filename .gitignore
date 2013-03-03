@@ -8,6 +8,11 @@
 /root/app/logs/*
 /root/vendor/
 /root/app/config/parameters.yml
+/root/composer.phar
 
 #JS components
 /root/web/components/
+
+#Develop
+/root/web/dev.php
+/logs/*
