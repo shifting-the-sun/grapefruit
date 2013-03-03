@@ -1,0 +1,14 @@
+{
+    "name" : "Grapefruit",
+    "version" : "dev",
+    "dependencies": {
+        "jquery": "latest",
+        "bootstrap" : "latest",
+        "backbone-amd": "latest",
+        "lodash" : "latest",
+        "rjs" : "latest",
+        "requirejs" : "latest",
+        "requirejs-text" : "latest",
+        "requirejs-domready" : "latest"
+    }
+}
