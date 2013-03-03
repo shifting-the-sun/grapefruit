@@ -8,3 +8,6 @@
 /root/app/logs/*
 /root/vendor/
 /root/app/config/parameters.yml
+
+#JS components
+/root/web/components/
